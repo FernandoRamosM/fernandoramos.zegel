@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos | EcoMarket</title>
+    <link rel="stylesheet" href="/css/contactenos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-logo">
+            <a href="/index.html">
+                <img src="/img/logo.svg" alt="Logotipo de EcoMarket">
+            </a>
+            <a href="/index.html"><h2>EcoMarket</h2></a>
+        </div>
+        <nav>
+            <ul>
+                <li class="enlace">
+                    <a href="/index.html">Inicio</a>
+                </li>
+                <li class="enlace">
+                    <a href="/templates/productos.html">Productos</a>
+                </li>
+                <li class="enlace">
+                    <a href="/templates/contacto.html">Contáctenos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <!-- Hero Section -->
+        <section class="contact-hero">
+            <div class="hero-content">
+                <h1>Conecta con la Naturaleza</h1>
+                <p>Estamos aquí para responder tus preguntas y escuchar tus ideas para un mundo más verde.</p>
+                <div class="leaf-decoration">
+                    <div class="leaf"></div>
+                    <div class="leaf"></div>
+                    <div class="leaf"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <div class="contact-container">
+            <section class="contact-info">
+                <div class="info-card">
+                    <h2><span class="icon">📍</span> Visítanos</h2>
+                    <p>Jr. Paz y Amor 214, Lima, Perú</p>
+                    <div class="eco-map">
+                        <div class="map-placeholder"></div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h2><span class="icon">✉️</span> Escríbenos</h2>
+                    <ul class="contact-list">
+                        <li><a href="mailto:info@ecomarket.pe">info@ecomarket.pe</a></li>
+                        <li><a href="mailto:ventas@ecomarket.pe">ventas@ecomarket.pe</a></li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h2><span class="icon">📞</span> Llámanos</h2>
+                    <ul class="contact-list">
+                        <li><a href="tel:+51987654321">+51 987 654 321</a></li>
+                        <li><a href="tel:+51984165970">+51 984 165 970</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contact-form-section">
+                <div class="form-container">
+                    <h2>Envíanos un mensaje</h2>
+                    <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                    
+                    <form class="eco-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej: María Fernández" required>
+                            <div class="leaf-input-decoration"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="Ej: maria@ejemplo.com" required>
+                            <div class="leaf-input-decoration"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" placeholder="Ej: Consulta sobre productos orgánicos">
+                            <div class="leaf-input-decoration"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Tu mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje..." required></textarea>
+                            <div class="leaf-textarea-decoration"></div>
+                        </div>
+                        
+                        <button type="submit" class="eco-button">
+                            <span>Enviar mensaje</span>
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="logo-footer">
+            <img src="/img/logo.svg" alt="logo">
+            <h2>ECOMARKET</h2>
+        </div>
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <a href="mailto:contacto@ecomarket.pe">contacto@ecomarket.pe</a>
+            <a href="tel:+51984165970">+51 984 165 970</a>
+        </div>
+        <div class="redes-sociales">
+            <h2>Redes sociales</h2>
+            <a href="#"><img src="/img/RedeSociales/Facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="/img/RedeSociales/Instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="/img/RedeSociales/WhatsApp.svg" alt="WhatsApp"></a>
+            <a href="#"><img src="/img/RedeSociales/YT.svg" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
+</html>
