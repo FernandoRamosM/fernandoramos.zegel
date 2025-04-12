@@ -8,7 +8,7 @@ body {
 /* Header */
 header{
     height: 1080px;
-    background-image: url(img/banner.png);
+    background-image: url('/img/banner.png');
     padding: 160px;
     background-position: center;
     background-size: cover;
